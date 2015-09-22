@@ -1,0 +1,14 @@
+#about{
+  img{
+    border: 3px solid #B0B0B0;
+    padding-top: 0px;
+    border-radius: 50%;
+    &.pull-left{
+      margin-right: 20px;
+    }
+  
+  }
+  p{
+      font-family: $p;
+  }
+}

@@ -1,0 +1,31 @@
+.con{
+  margin:0px;
+  padding: 0px;
+}
+.style{
+  margin:0px;
+}
+@for $i from 1 through 6{
+    h#{$i}{
+        
+        font-weight: 20px;
+        
+    }
+}
+body{
+  
+  font-weight: 300;
+  h1{
+    margin-top: 0px;
+  }
+
+}
+b,strong{
+  font-weight: 400;
+}
+nav.navbar{
+  
+  font-weight: 400;
+  text-transform: lowercase;
+  font-size: 20px;
+}
