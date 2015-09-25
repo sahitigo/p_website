@@ -4,12 +4,12 @@ layout: default
 <div id="land">
   <h1>Sahiti Gopal Naraharisetty</h1>
   <div class="ckt">
-  <img src="../images/n.jpg" class="immg a " alt="">
+  <img src="../images/n.jpg" class="immg a " alt="" >
   <img src="../images/s.jpg" class="immg b " alt="">
   <img src="../images/g.jpg" class="immg c" alt="">
   </div>
   <script>
-    $( document ).ready(function() {
+    $(document).ready(function() {
       $( ".immg" ).hover(function() {
          $(this).animate({left: '250px'});
       })
@@ -19,8 +19,3 @@ layout: default
       {%include nav_links.html%}
     </nav>
 </div>
-$(document).ready(function(){
-    $("button").click(function(){
-        $("div").animate({left: '250px'});
-    });
-});
