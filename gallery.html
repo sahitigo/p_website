@@ -2,27 +2,25 @@
 layout: page
 title: My Gallery
 permalink: /gallery/
-position: 4
+position: 3
 ---
+<div class="gallery"> 
 
-<div id ="image-gallery"class="container-fluid">
-<h1><center>My Gallery</center></h1>
-  <div class="row">
-    {% for item in site.data.gallery_items %}
-    <div id="galleryItem-{{item.number}}" class="col-xs-3 item" data-toggle="modal" data-target="#galleryModal-{{item.number}}">
-      <div class="slide">{{item.title}}</div>
-      <i class="fa fa-search-plus kt"></i>
-    </div>
+  <a href="../images/art/1.png" class="big">
+    <img src="../images/art/1small.png" alt="" title="Landscape">
+  </a>
 
-    <div class="modal fade" id="galleryModal-{{item.number}}" tabindex="-1" role="dialog">
-      <div class="modal-dialog" role="document">
-      <div class="modal-content str">
-         <div class="modal-body ibody">
-          <img src="../images/art/{{item.image}}" alt="">
-        </div>
-      </div>
-    </div>
-  </div>
-  {% endfor %}
+  <a href="../images/art/2.png" class="big">
+    <img src="../images/art/2small.png" alt="" title="Village">
+  </a>
+
+  <a href="../images/art/3.png" class="big">
+    <img src="../images/art/3small.png" alt="" title="Kanayya">
+  </a>
+
+  <a href="../images/art/4.png" class="big">
+    <img src="../images/art/4small.png" alt="" title="Kisna">
+  </a>
+  
 </div>
-</div>
+
