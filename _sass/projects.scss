@@ -1,0 +1,34 @@
+#projects_page{
+  
+  background-repeat: no-repeat;
+  background-position: bottom ;
+
+}
+#proj {
+  .item{
+    height: 200px;
+    
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:50% 0%;
+    overflow:hidden;
+    
+    transition:all 0.3s ease-in;
+    .slide{
+     &:hover {
+      background-color: darken(#434343, 5%);
+    }
+  }
+  @for $i from 1 through 12{
+    &.item-#{$i}{
+      background-image:url("../images/#{$i}.jpg");
+    }
+    
+  }   
+}
+.pr{
+  width: 25%;
+  margin-left: 18em;
+  padding-top: 5em;
+}
+}

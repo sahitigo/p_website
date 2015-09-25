@@ -1,23 +1,26 @@
 ---
 layout: default
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div id="land">
+  <h1>Sahiti Gopal Naraharisetty</h1>
+  <div class="ckt">
+  <img src="../images/n.jpg" class="immg a " alt="">
+  <img src="../images/s.jpg" class="immg b " alt="">
+  <img src="../images/g.jpg" class="immg c" alt="">
+  </div>
+  <script>
+    $( document ).ready(function() {
+      $( ".immg" ).hover(function() {
+         $(this).animate({left: '250px'});
+      })
+    });
+  </script>
+   <nav>
+      {%include nav_links.html%}
+    </nav>
 </div>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("div").animate({left: '250px'});
+    });
+});
