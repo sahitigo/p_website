@@ -1,5 +1,5 @@
 #projects_page{
-  
+
   background-repeat: no-repeat;
   background-position: bottom ;
 
@@ -7,16 +7,22 @@
 #proj {
   .item{
     height: 200px;
-    
+
     background-repeat:no-repeat;
     background-size:cover;
     background-position:50% 0%;
     overflow:hidden;
-    
+
     transition:all 0.3s ease-in;
     .slide{
      &:hover {
       background-color: darken(#434343, 5%);
+    }
+  }
+  .lor{
+    h2{
+      font-size: 31px;
+
     }
   }
   @for $i from 1 through 12{
