@@ -3,20 +3,20 @@ header{
     h4{
       margin-top: -13px;
     }
-    .span{
-    padding-left: 1em;
+    span{
+      padding-left: 1em;
+    }
   }
-}
 }
 .style{
   margin:0px;
 }
 @for $i from 1 through 6{
-    h#{$i}{
-        
-        font-weight: 20px;
-        
-    }
+  h#{$i}{
+    
+    font-weight: 20px;
+    
+  }
 }
 body{
   
