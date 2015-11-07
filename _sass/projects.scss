@@ -2,7 +2,7 @@
 
   background-repeat: no-repeat;
   background-position: bottom ;
-
+  padding-top: 9em;
 }
 #proj {
   .item{
@@ -12,7 +12,7 @@
     background-size:cover;
     background-position:50% 0%;
     overflow:hidden;
-
+    
     transition:all 0.3s ease-in;
     .slide{
      &:hover {
@@ -37,4 +37,5 @@
   margin-left: 18em;
   padding-top: 5em;
 }
+
 }

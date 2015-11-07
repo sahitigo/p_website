@@ -23,5 +23,26 @@
     title: "Kisna",
     image: "5.png",
     number: 5
+  },
+  {
+    title: "Rangoli",
+    image: "6.png",
+    number: 6
+  },
+  {
+    title: "City",
+    image: "7.png",
+    number: 7
+  },
+  {
+    title: "Rapunzel",
+    image: "8.png",
+    number: 8
+  },
+  {
+    title: "Durga ma",
+    image: "9.png",
+    number: 9
   }
+
 ]
