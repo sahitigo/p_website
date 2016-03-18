@@ -43,3 +43,9 @@ nav.navbar{
   text-transform: lowercase;
   font-size: 20px;
 }
+
+.vcenter {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}

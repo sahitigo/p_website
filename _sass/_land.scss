@@ -1,46 +1,40 @@
 #land{
-
-  background-size: 100% auto;
-  background-position: bottom center;
-  background-repeat: no-repeat;
   background-color: #FFFFFF;
-  width: 100%;
-  height: 100vh;
   background-image: url('../images/color.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
   font-family: $heading_font;
-  margin:0px;
-  .ckt{
-    margin-left: 48em;
-    padding-top: 1em;
-    padding-left: 2em;
-  }
-  .immg{
-    vertical-align: middle;
-    margin-top: 0em;
-    margin-left: 0em;
-    border-radius: 50%;
-    margin-top: -8em;
+  position: relative;
 
-  }
+  .vcenter {
+    padding: 5vh 0;
+    background-color: rgba(0,0,0,0.2);
 
-  h1{
-    margin-top: 0px;
-    margin-left: 4em;
-    padding-top: 8em;
-  }
-  
-  header{
-    border:1px solid transparent;
     h1{
-      color:#fff;
-      text-align: center;
+      line-height: 8vw;
+      margin-left: 8vw;
       font-size: 4vw;
+      color: white;
+    }
+
+    .alphabet_images {
+      margin-right: 7vw;
+
+      img {
+        height: 8vw;
+        width: 8vw;
+        margin-right: 1vw;
+      }
     }
   }
+
+
   nav{
     position: absolute;
     bottom: 5vmin;
     right:5vmin;
+
     a{
       &,&:hover, &:visited,&:active{
         color: #000;
@@ -50,12 +44,12 @@
         font-family: $heading_font;
         margin-left: 2em;
         display: inline-block;
+        transform:scale(1);
         transition:transform 0.3s ease-in;
+
         &:hover{
           transform:scale(1.4);
-
         }
-
       }
     }
   }

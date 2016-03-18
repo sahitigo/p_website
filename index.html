@@ -2,20 +2,15 @@
 layout: default
 ---
 <div id="land">
-  <h1>Sahiti Gopal Naraharisetty</h1>
-  <div class="ckt">
-  <img src="{{ "/images/n.jpg" | prepend: site.baseurl }}" class="immg a " alt="" >
-  <img src="{{ "/images/s.jpg" | prepend: site.baseurl }}" class="immg b " alt="">
-  <img src="{{ "/images/g.jpg" | prepend: site.baseurl }}" class="immg c" alt="">
+  <div class="vcenter clearfix">
+    <div class="alphabet_images pull-right">
+      <img src="{{ "/images/n.jpg" | prepend: site.baseurl }}" class="img-circle wow bounceInDown" data-wow-duration="2s">
+      <img src="{{ "/images/s.jpg" | prepend: site.baseurl }}" class="img-circle wow bounceInDown" data-wow-duration="2s" data-wow-delay="0.3s">
+      <img src="{{ "/images/g.jpg" | prepend: site.baseurl }}" class="img-circle wow bounceInDown" data-wow-duration="2s" data-wow-delay="0.6s">
+    </div>
+    <h1>Sahiti Gopal Naraharisetty</h1>
   </div>
-  <script>
-    $(document).ready(function() {
-      $( ".immg" ).hover(function() {
-         $(this).animate({left: '250px'});
-      })
-    });
-  </script>
-   <nav>
-      {%include nav_links.html%}
-    </nav>
+  <nav>
+    {%include nav_links.html%}
+  </nav>
 </div>
